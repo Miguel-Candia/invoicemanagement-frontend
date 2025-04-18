@@ -52,11 +52,6 @@ export default tseslint.config({
   },
 })
 ```
-//explicacion de lo realiza la aplicacion
-//Version actual de react
-//compilador de paquetes (node y npm) Version
-//http://localhost:{PORT}/
-//http://localhost:{PORT}/invoice/{id}    explicar la ruta
 
 # 🧾 Aplicación de Gestión de Facturas – Frontend (React + TypeScript + Vite)
 
@@ -64,10 +59,10 @@ export default tseslint.config({
 
 El frontend sigue una arquitectura basada en componentes (**Component-Based Architecture**) y separación de responsabilidades (**Separation of Concerns**), distribuyendo la lógica en:
 
-- `components/`: Componentes visuales reutilizables como formularios y listas
-- `pages/`: Vistas que combinan componentes y representan pantallas completas
-- `services/`: Encapsula llamadas HTTP al backend (API REST) y lógica relacionada
-- `types/`: Define estructuras de datos fuertemente tipadas para garantizar seguridad y mantenibilidad usando TypeScript
+- `components/`: Componentes visuales reutilizables como formularios y listas.
+- `pages/`: Vistas que combinan componentes y representan pantallas completas.
+- `services/`: Encapsula llamadas HTTP al backend (API REST) y lógica relacionada.
+- `types/`: Define estructuras de datos fuertemente tipadas para garantizar seguridad y mantenibilidad usando TypeScript.
 
 Esta estructura mejora la escalabilidad y claridad del código, permitiendo un desarrollo mantenible y fácil de extender.
 
@@ -77,10 +72,10 @@ Esta estructura mejora la escalabilidad y claridad del código, permitiendo un d
 
 Esta aplicación permite visualizar, buscar y administrar facturas. Entre sus funcionalidades principales se encuentran:
 
-- ✅ Subida de un archivo `.json` con facturas
-- ✅ Visualización de una tabla con todas las facturas cargadas
-- ✅ Búsqueda por número de factura, estado de la factura y estado de pago
-- ✅ Acceso a una vista detallada para agregar Notas de Crédito (NC) a cada factura
+- ✅ Subida de un archivo `.json` con facturas.
+- ✅ Visualización de una tabla con todas las facturas cargadas.
+- ✅ Búsqueda por número de factura, estado de la factura y estado de pago.
+- ✅ Acceso a una vista detallada para agregar Notas de Crédito (NC) a cada factura.
 
 El frontend consume una API REST desarrollada en .NET 8 (ver proyecto backend).
 
@@ -108,11 +103,11 @@ Una vez que el proyecto está corriendo localmente (por defecto con Vite):
 
 Aquí se carga la página principal donde podrás:
 
-- Ver todas las facturas
+- Ver todas las facturas.
 
-- Buscar por número y estado
+- Buscar por número y estado.
 
-- Navegar a la vista para agregar notas de credito
+- Navegar a la vista para agregar notas de credito.
 
 
 **http://localhost:{PORT}/invoice/{id}**
