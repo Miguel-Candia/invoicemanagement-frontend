@@ -60,6 +60,19 @@ export default tseslint.config({
 
 # 🧾 Aplicación de Gestión de Facturas – Frontend (React + TypeScript + Vite)
 
+### 🧱 Patrón de diseño aplicado en el Frontend
+
+El frontend sigue una arquitectura basada en componentes (**Component-Based Architecture**) y separación de responsabilidades (**Separation of Concerns**), distribuyendo la lógica en:
+
+- `components/`: Componentes visuales reutilizables como formularios y listas
+- `pages/`: Vistas que combinan componentes y representan pantallas completas
+- `services/`: Encapsula llamadas HTTP al backend (API REST) y lógica relacionada
+- `types/`: Define estructuras de datos fuertemente tipadas para garantizar seguridad y mantenibilidad usando TypeScript
+
+Esta estructura mejora la escalabilidad y claridad del código, permitiendo un desarrollo mantenible y fácil de extender.
+
+---
+
 ## 1. 📌 ¿Qué realiza esta aplicación?
 
 Esta aplicación permite visualizar, buscar y administrar facturas. Entre sus funcionalidades principales se encuentran:
