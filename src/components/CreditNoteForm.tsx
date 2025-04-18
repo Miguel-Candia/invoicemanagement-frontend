@@ -28,7 +28,7 @@ export default function CreditNoteForm({ invoiceId, onAdded }: Props) {
 
     try {
       await addCreditNote(creditNote);
-      Swal.fire('Éxito', 'Credit note added successfully', 'success');
+      Swal.fire('Success', 'Credit note added successfully', 'success');
       setAmount('');
       onAdded();
     } catch (error) {
